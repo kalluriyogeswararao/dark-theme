@@ -1,0 +1,33 @@
+.light-theme-home-container {
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.dark-theme-home-container {
+  height: 100vh;
+  display: flex;
+  background-color: #000000;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.home {
+  width: 200px;
+  margin-bottom: 20px;
+}
+
+.light-theme-home-heading {
+  font-family: 'roboto';
+  font-size: 45px;
+  color: #1e293b;
+}
+
+.dark-theme-home-heading {
+  font-family: 'roboto';
+  font-size: 45px;
+  color: #ffffff;
+}
